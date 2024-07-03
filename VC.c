@@ -3,6 +3,10 @@
 #include<time.h>
 int main(){
     int H = 0, T = 0;
+    char name[30];
+    printf("Who are you?");
+    scanf("%s",name);
+    printf("Hello, %s\n",name);
     printf("Tossing a coin...\n");
     srand((unsigned int)time(NULL));
     for(int i = 0; i < 3; i++){
