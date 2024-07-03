@@ -18,4 +18,6 @@ int main(){
         }
     }
     printf("Heads: %d, Tails: %d\n",H,T);
+    if(H > T)printf("You won!\n");
+    else if(T > H)printf("You lost.\n");
 }
